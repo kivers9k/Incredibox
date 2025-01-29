@@ -19,9 +19,13 @@ var app = new function() {
     }, {
         name: "5_koungou",
         color: "5f7e7b",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "6_bass",
+        color: "5f7e7b",
+        uniqsnd: !1
+    }, {
+        name: "7_monk",
         color: "5f7e7b",
         uniqsnd: !1
     }, {
