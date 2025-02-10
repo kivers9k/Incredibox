@@ -1,6 +1,6 @@
 /* 0.5.4 2021-04-23 21:06:13 */
 var app = new function() {
-    this.name = "Dystopia", this.version = "8", this.date = "2020", this.folder = "asset-v8/", this.looptime = 6857, this.bpm = 140, this.totalframe = 328, this.nbpolo = 20, this.nbloopbonus = 6, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 27, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#0a1d1e", this.col0 = "#779295", this.col1 = "#5f7e7b", this.col2 = "#476761", this.col3 = "#304d47", this.col4 = "#1b312f", this.animearray = [{
+    this.name = "Dystopia", this.version = "8", this.date = "2020", this.folder = "asset-v8/", this.looptime = 6857, this.bpm = 140, this.totalframe = 328, this.nbpolo = 7, this.nbloopbonus = 6, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 27, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#0a1d1e", this.col0 = "#779295", this.col1 = "#5f7e7b", this.col2 = "#476761", this.col3 = "#304d47", this.col4 = "#1b312f", this.animearray = [{
         name: "1_atlanta",
         color: "5f7e7b",
         uniqsnd: !1
@@ -22,10 +22,6 @@ var app = new function() {
         uniqsnd: !0
     }, {
         name: "6_bass",
-        color: "5f7e7b",
-        uniqsnd: !1
-    }, {
-        name: "7_monk",
         color: "5f7e7b",
         uniqsnd: !1
     }, {
@@ -95,6 +91,12 @@ var app = new function() {
         src: "v8-b2-zemetekile-hb.mp4",
         code: "1,2,3,4,10",
         sound: "22_bonus_zemetekile",
+        aspire: "aspire"
+    }, {
+        name: "Riveria",
+        src: "v8-b1-riviera-hb.mp4",
+        code: "1,6,7,11,19",
+        sound: "21_bonus_riviera",
         aspire: "aspire"
     }, {
         name: "Cumulor",
